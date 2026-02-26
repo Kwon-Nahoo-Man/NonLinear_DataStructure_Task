@@ -76,14 +76,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Enumeration\ItemType.cpp" />
-    <ClCompile Include="ItemDictionary.cpp" />
+    <ClCompile Include="Dictionary\ItemDictionary.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Struct\ItemInfo.cpp" />
     <ClCompile Include="Util\GenerateKey.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Container\HashTable.h" />
-    <ClInclude Include="ItemDictionary.h" />
+    <ClInclude Include="Dictionary\ItemDictionary.h" />
     <ClInclude Include="Struct\ItemInfo.h" />
     <ClInclude Include="Enumeration\ItemType.h" />
     <ClInclude Include="Util\GenerateKey.h" />
