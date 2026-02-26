@@ -1,0 +1,102 @@
+아래는 검색할 수 있는 아이템 목록입니다 ㅎㅎ
+
+iron sword
+steel sword
+bronze shield
+steel shield
+leather armor
+steel armor
+magic robe
+wizard hat
+iron helmet
+steel helmet
+leather boots
+steel boots
+leather gloves
+steel gauntlets
+magic ring
+silver necklace
+golden bracelet
+warrior belt
+assassin cloak
+dragon shield
+health potion
+large health potion
+mana potion
+large mana potion
+stamina potion
+antidote
+elixir
+speed potion
+defense potion
+attack potion
+fire bomb
+ice bomb
+smoke bomb
+teleport scroll
+identify scroll
+revive scroll
+food ration
+magic cookie
+energy drink
+fire resistance potion
+iron ore
+copper ore
+silver ore
+gold ore
+mithril ore
+herb leaf
+red herb
+blue herb
+green herb
+magic powder
+beast fang
+slime jelly
+spider silk
+dragon scale
+crystal shard
+ancient relic
+hard wood
+soft leather
+iron ingot
+steel ingot
+quest letter
+ancient map
+lost key
+magic seal
+hero's token
+bandit contract
+missing person poster
+secret document
+old diary
+ancient coin
+fireball skillbook
+icebolt skillbook
+heal skillbook
+lightning skillbook
+teleport skillbook
+shield bash skillbook
+stealth skillbook
+double slash skillbook
+firestorm skillbook
+earthquake skillbook
+silver ring
+golden ring
+ruby necklace
+sapphire earrings
+emerald bracelet
+magic cape
+knight armor
+assassin dagger
+warhammer
+longbow
+meat
+bread
+cheese
+milk
+apple
+roasted chicken
+magic water
+energy bar
+hot soup
+golden apple
