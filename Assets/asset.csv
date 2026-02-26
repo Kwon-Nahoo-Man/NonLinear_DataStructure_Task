@@ -1,0 +1,100 @@
+1,iron sword,1,A basic iron sword
+2,steel sword,1,A sturdy sword made of steel
+3,bronze shield,1,A shield crafted from bronze
+4,steel shield,1,A durable steel shield
+5,leather armor,1,Light armor made of leather
+6,steel armor,1,Heavy armor forged from steel
+7,magic robe,1,A robe worn by mages
+8,wizard hat,1,A hat that enhances magical power
+9,iron helmet,1,A helmet made of iron
+10,steel helmet,1,A steel helmet for head protection
+11,leather boots,1,Light boots made of leather
+12,steel boots,1,Heavy boots made of steel
+13,leather gloves,1,Basic gloves made of leather
+14,steel gauntlets,1,Steel gauntlets that protect the hands
+15,magic ring,1,A ring that increases magical power
+16,silver necklace,1,A necklace made of silver
+17,golden bracelet,1,A bracelet crafted from gold
+18,warrior belt,1,A belt worn by warriors
+19,assassin cloak,1,A cloak used by assassins for stealth
+20,dragon shield,1,A legendary shield made from dragon scales
+21,health potion,2,Restores a small amount of health
+22,large health potion,2,Restores a large amount of health
+23,mana potion,2,Restores a small amount of mana
+24,large mana potion,2,Restores a large amount of mana
+25,stamina potion,2,Restores stamina
+26,antidote,2,Cures poison
+27,elixir,2,Fully restores health and mana
+28,speed potion,2,Temporarily increases movement speed
+29,defense potion,2,Temporarily increases defense
+30,attack potion,2,Temporarily increases attack power
+31,fire bomb,2,Explodes and deals fire damage
+32,ice bomb,2,Explodes and deals ice damage
+33,smoke bomb,2,Creates smoke to obscure vision
+34,teleport scroll,2,Teleports the user to a chosen location
+35,identify scroll,2,Identifies unknown items
+36,revive scroll,2,Revives a fallen ally
+37,food ration,2,Restores hunger
+38,magic cookie,2,Restores a small amount of mana
+39,energy drink,2,Quickly restores stamina
+40,fire resistance potion,2,Temporarily increases fire resistance
+41,iron ore,3,Ore used to smelt iron
+42,copper ore,3,Ore used to smelt copper
+43,silver ore,3,Ore used to smelt silver
+44,gold ore,3,Ore used to smelt gold
+45,mithril ore,3,A rare ore containing mithril
+46,herb leaf,3,A herb used for potion crafting
+47,red herb,3,Material for health potions
+48,blue herb,3,Material for mana potions
+49,green herb,3,Material for antidotes
+50,magic powder,3,Magical powder used in crafting
+51,beast fang,3,A fang taken from a wild beast
+52,slime jelly,3,Sticky jelly obtained from slimes
+53,spider silk,3,Silk collected from spiders
+54,dragon scale,3,A scale shed by a dragon
+55,crystal shard,3,A shard filled with magical energy
+56,ancient relic,3,A fragment of an ancient relic
+57,hard wood,3,Sturdy wood used for crafting
+58,soft leather,3,Soft leather used for equipment
+59,iron ingot,3,Refined iron used for crafting
+60,steel ingot,3,Refined steel used for crafting
+61,quest letter,4,A letter required for a quest
+62,ancient map,4,A map showing the location of ancient ruins
+63,lost key,4,A key that opens an unknown door
+64,magic seal,4,A seal needed to break magical barriers
+65,hero's token,4,A token symbolizing a hero
+66,bandit contract,4,A contract belonging to bandits
+67,missing person poster,4,A poster searching for a missing person
+68,secret document,4,A document containing classified information
+69,old diary,4,An old diary filled with memories
+70,ancient coin,4,A coin from an ancient civilization
+71,fireball skillbook,5,Teaches the Fireball skill
+72,icebolt skillbook,5,Teaches the Icebolt skill
+73,heal skillbook,5,Teaches the Heal skill
+74,lightning skillbook,5,Teaches a lightning magic skill
+75,teleport skillbook,5,Teaches the Teleport skill
+76,shield bash skillbook,5,Teaches the Shield Bash skill
+77,stealth skillbook,5,Teaches the Stealth skill
+78,double slash skillbook,5,Teaches the Double Slash skill
+79,firestorm skillbook,5,Teaches a powerful firestorm spell
+80,earthquake skillbook,5,Teaches the Earthquake skill
+81,silver ring,1,A ring made of silver
+82,golden ring,1,A ring made of gold
+83,ruby necklace,1,A necklace adorned with a ruby
+84,sapphire earrings,1,Earrings decorated with sapphires
+85,emerald bracelet,1,A bracelet set with an emerald
+86,magic cape,1,A cape worn by mages
+87,knight armor,1,Armor worn by knights
+88,assassin dagger,1,A dagger used by assassins
+89,warhammer,1,A heavy hammer used in battle
+90,longbow,1,A bow designed for long-range attacks
+91,meat,2,A piece of meat that restores hunger
+92,bread,2,A simple meal that restores a little energy
+93,cheese,2,Restores a small amount of health
+94,milk,2,Restores a small amount of stamina
+95,apple,2,A fresh apple that restores health
+96,roasted chicken,2,Restores a large amount of health
+97,magic water,2,Restores a large amount of mana
+98,energy bar,2,Quickly restores energy
+99,hot soup,2,Restores health with warm broth
+100,golden apple,2,A rare fruit with strong healing power

@@ -17,10 +17,22 @@ public:
 	C_HASHTABLE(const C_HASHTABLE&) = delete;
 	const C_HASHTABLE& operator=(const C_HASHTABLE&) = delete;
 
+	const std::list<Entry>& operator[](int index) const
+	{
+		if (index >= hashBucketCount)
+		{
+			__debugbreak();
+		}
+		return hashtable[index];
+	}
+
+	inline int GetBucketNumber() const { return hashBucketCount; }
+	
 	bool IsEmpty() const;
 	bool Add(GENERATED_KEY key, const Value& value);
 	bool Delete(GENERATED_KEY key);
 	bool Find(GENERATED_KEY key, Entry& outPut);
+	void Clear();
 
 private:
 
@@ -51,7 +63,7 @@ inline bool C_HASHTABLE<Value>::Add(GENERATED_KEY key, const Value& value)
 	{
 		if (iter->first == key && iter->second == value)
 		{
-			std::cout << "해시테이블: 이미 동일한 키 값을 가진 데이터가 저장되어 있습니다.\n";
+			std::cout << "HashTable: Data with same key is already stored.\n\n";
 			return false;
 		}
 
@@ -77,7 +89,7 @@ inline bool C_HASHTABLE<Value>::Delete(GENERATED_KEY key)
 		}
 
 	}
-	std::cout << "해시테이블: 삭제할 데이터를 찾지 못했습니다.\n";
+	std::cout << "HashTable: Couldn't find data to delete.\n\n";
 	return false;
 }
 
@@ -96,5 +108,14 @@ inline bool C_HASHTABLE<Value>::Find(GENERATED_KEY key, Entry& outPut)
 	}
 	
 	return false;
+}
+
+template<typename Value>
+inline void C_HASHTABLE<Value>::Clear()
+{
+	for (int i = 0; i < hashBucketCount; ++i)
+	{
+		hashtable[i].clear();
+	}
 }
 

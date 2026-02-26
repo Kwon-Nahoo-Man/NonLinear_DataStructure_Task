@@ -1,6 +1,6 @@
 #pragma once
 
-enum E_ITEMTYPE
+enum class E_ITEMTYPE : int
 {
 	NONE = 0,
 	ITEMTYPE_EQUITMENT = 1,
@@ -10,3 +10,9 @@ enum E_ITEMTYPE
 	ITEMTYPE_SKILLBOOK = 5,
 	MAX
 };
+
+namespace ITEMTYPE
+{
+	const char* ToString(E_ITEMTYPE type);
+}
+
