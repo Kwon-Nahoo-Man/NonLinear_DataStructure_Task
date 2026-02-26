@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -75,6 +76,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Struct\ItemInfo.cpp" />
+    <ClCompile Include="Util\GenerateKey.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Container\HashTable.h" />
+    <ClInclude Include="Struct\ItemInfo.h" />
+    <ClInclude Include="Enumeration\ItemType.h" />
+    <ClInclude Include="Util\GenerateKey.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
