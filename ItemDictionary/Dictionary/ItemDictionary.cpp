@@ -105,7 +105,7 @@ void C_ITEMDICTIONARY::Destroy()
 
 }
 
-void C_ITEMDICTIONARY::FindItem(std::string itemName)
+void C_ITEMDICTIONARY::FindItem(const std::string& itemName)
 {
 	// 찾고싶은 item의 키 생성
 	GENERATED_KEY key = GenerateKey::GetInstance()->MakeKey(itemName);

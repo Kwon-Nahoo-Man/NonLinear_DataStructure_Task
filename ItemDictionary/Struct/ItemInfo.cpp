@@ -1,6 +1,6 @@
 #include "ItemInfo.h"
 
-void C_ITEMINFO::Init(int itemID, std::string name, E_ITEMTYPE itemtype, std::string description)
+void C_ITEMINFO::Init(int itemID, const std::string& name, E_ITEMTYPE itemtype, const std::string& description)
 {
     m_itemID = itemID;
     m_name = name;

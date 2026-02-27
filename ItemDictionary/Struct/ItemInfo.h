@@ -14,7 +14,7 @@ public:
 	C_ITEMINFO(const C_ITEMINFO&) = delete;
 	const C_ITEMINFO& operator=(const C_ITEMINFO&) = delete;
 
-	void Init(int itemID, std::string name, E_ITEMTYPE itemtype, std::string description);
+	void Init(int itemID, const std::string& name, E_ITEMTYPE itemtype, const std::string& description);
 
 	bool operator==(const C_ITEMINFO& other) const;
 	

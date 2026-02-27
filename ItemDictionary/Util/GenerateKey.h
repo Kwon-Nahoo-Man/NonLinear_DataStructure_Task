@@ -18,7 +18,7 @@ public:
 
 	// 아직은 키를 변환해주는 것이 int와 string 밖에 없음
 	GENERATED_KEY MakeKey(int keyInteger);
-	GENERATED_KEY MakeKey(std::string keyString);
+	GENERATED_KEY MakeKey(const std::string& keyString);
 
 private:
 	static GenerateKey* m_instance;
