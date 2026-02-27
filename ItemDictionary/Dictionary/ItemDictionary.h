@@ -8,6 +8,7 @@ public:
 	C_ITEMDICTIONARY() = default;
 	~C_ITEMDICTIONARY() = default;
 
+	// 복사 방지
 	C_ITEMDICTIONARY(const C_ITEMDICTIONARY&) = delete;
 	const C_ITEMDICTIONARY& operator=(const C_ITEMDICTIONARY&) = delete;
 

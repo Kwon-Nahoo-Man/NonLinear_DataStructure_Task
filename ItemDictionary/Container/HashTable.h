@@ -17,6 +17,7 @@ public:
 	C_HASHTABLE(const C_HASHTABLE&) = delete;
 	const C_HASHTABLE& operator=(const C_HASHTABLE&) = delete;
 
+	// hashtable의 각 list에 쉽게 접근하기 위해 연산자 재정의
 	const std::list<Entry>& operator[](int index) const
 	{
 		if (index >= hashBucketCount)

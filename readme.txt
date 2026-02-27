@@ -1,0 +1,1 @@
+Assets 폴더 안 Item_list.txt에 검색할 수 있는 아이템들 나열했습니다 ㅎㅎ

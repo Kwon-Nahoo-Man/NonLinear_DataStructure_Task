@@ -2,6 +2,8 @@
 #include <string>
 #include "Enumeration/ItemType.h"
 
+// 원래는 struct였으나, 연산자 오버로딩도 필요하고 init도 따로 만들어서
+// 그냥 클래스로 함
 class C_ITEMINFO
 {
 public:

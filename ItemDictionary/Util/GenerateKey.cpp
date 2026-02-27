@@ -27,6 +27,9 @@ GenerateKey* GenerateKey::GetInstance()
 
 GENERATED_KEY GenerateKey::MakeKey(int keyInteger)
 {
+	// int는 그냥 절댓값으로 출력
+	// 이러면 만약 들어오는 값이 음수가 들어오면 key가 겹칠 가능성 농후
+
 	return abs(keyInteger);
 }
 

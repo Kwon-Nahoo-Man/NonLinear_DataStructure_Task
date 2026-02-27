@@ -63,14 +63,15 @@ void C_ITEMDICTIONARY::Init(const char* fileName)
 		description = part;
 
 		// hashTable에 들어갈 키 생성
-		GENERATED_KEY bucketIndex = GenerateKey::GetInstance()->MakeKey(name);
+		GENERATED_KEY key = GenerateKey::GetInstance()->MakeKey(name);
 		
 		// data로 들어갈 ItemInfo 생성
 		C_ITEMINFO* itemInfo = new C_ITEMINFO();
+		// ItemInfo 값 설정
 		itemInfo->Init(itemID, name, itemType, description);
 		
 		// hashTable에 추가
-		m_itemTable.Add(bucketIndex, itemInfo);
+		m_itemTable.Add(key, itemInfo);
 
 		token = strtok_s(nullptr, "\n", &context);
 
@@ -106,8 +107,12 @@ void C_ITEMDICTIONARY::Destroy()
 
 void C_ITEMDICTIONARY::FindItem(std::string itemName)
 {
+	// 찾고싶은 item의 키 생성
 	GENERATED_KEY key = GenerateKey::GetInstance()->MakeKey(itemName);
+	
+	// 출력으로 받을 변수
 	std::pair<GENERATED_KEY, C_ITEMINFO*> output{};
+	
 	if (m_itemTable.Find(key, output))
 	{
 		std::cout
