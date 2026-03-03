@@ -33,7 +33,7 @@ GENERATED_KEY GenerateKey::MakeKey(int keyInteger)
 	return abs(keyInteger);
 }
 
-GENERATED_KEY GenerateKey::MakeKey(std::string keyString)
+GENERATED_KEY GenerateKey::MakeKey(const std::string& keyString)
 {
 	int key{ 0 };
 	for (size_t i{ 0 }; i < keyString.length(); ++i)

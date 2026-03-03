@@ -14,7 +14,7 @@ public:
 
 	void Init(const char* fileName = "asset.csv");
 	void Destroy();
-	void FindItem(std::string itemName);
+	void FindItem(const std::string& itemName);
 
 private:
 	C_HASHTABLE<C_ITEMINFO*> m_itemTable{};
